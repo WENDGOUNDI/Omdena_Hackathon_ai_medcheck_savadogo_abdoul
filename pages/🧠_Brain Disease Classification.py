@@ -38,6 +38,7 @@ if file is not None:
 
     # classify image
     class_name, conf_score = predBrain_Disease(image, brain_model_path)
+    class_name = class_name.strip()
 
     # write classification
     st.write("### Prediction: {}".format(adjust_class_names[class_name]))
