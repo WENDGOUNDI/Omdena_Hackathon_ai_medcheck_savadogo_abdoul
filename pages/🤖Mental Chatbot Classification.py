@@ -15,7 +15,7 @@ set_background('./bckgrd_image/mental_bckgrd.jpg')
 load_dotenv()
 
 # Initialize the OpenAI API client
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("sk-jt6dzKKXFAF7COcW5TM9Kr7dCKUH6AcwLSbGizqryJT3BlbkFJ-HOV2hRQBU5DfoeP-7yYXVoZPFFzxMnvce72w5AE4A")
 
 system_prompt = "You are a mental health support bot who helps users understand their mental health situation and get answers to their questions."
 
@@ -29,7 +29,7 @@ def mentalChatBot(userInput):
 
 
     response = openai.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": userInput}
