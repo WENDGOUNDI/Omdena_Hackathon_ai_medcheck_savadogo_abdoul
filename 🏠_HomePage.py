@@ -9,7 +9,7 @@ st.set_page_config( page_title="AI MedCheck", )
 
 
 # set title
-st.image(r"C:\Users\savadogo_abdoul\Documents\hackathon\webapp\bckgrd_image\omdena_banner_1.png")
+st.image("./bckgrd_image/omdena_banner_1.png")
 st.title('Welcome To Omdena 2024 Hackathon')
 
 st.header("AI MedCheck: AI-Powered Healthcare Solutions")
