@@ -33,7 +33,7 @@ adjust_class_names = {"glioma": "Glioma",
 # display image
 if file is not None:
     image = Image.open(file).convert('RGB')
-    resized_image = image.resize((512, 512))
+    resized_image = image.resize((224, 224))
     st.image(resized_image)
 
     # classify image
