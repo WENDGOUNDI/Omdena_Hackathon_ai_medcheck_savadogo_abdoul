@@ -1,1 +1,1 @@
-# Omdena_Hackathon_ai_medcheck_savadogo_abdoul
+# Omdena Hackathon: AI MedCheck
