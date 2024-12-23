@@ -40,5 +40,5 @@ if file is not None:
     class_name, conf_score = predBrain_Disease(image, brain_model_path)
 
     # write classification
-    st.write("### Prediction: {}".format(adjust_class_names(class_name)))
+    st.write("### Prediction: {}".format(adjust_class_names[class_name]))
     #st.write("### score: {}%".format(int(conf_score * 1000) / 10))
